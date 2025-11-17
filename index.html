@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estudio Creativo Aurora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <div class="logo">Aurora</div>
+        <button class="menu-toggle" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#equipo">Equipo</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <p class="pill">Estudio creativo independiente</p>
+        <h1>Diseño digital con alma latina</h1>
+        <p>
+          Creamos experiencias web y productos digitales con estética cuidada,
+          tecnología moderna y una pizca de rebeldía.
+        </p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#contacto">Hablemos</a>
+          <a class="btn ghost" href="#proyectos">Ver proyectos</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="servicios" class="section">
+        <div class="section-heading">
+          <p class="pill">Servicios</p>
+          <h2>Lo que podemos construir juntos</h2>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Identidad visual</h3>
+            <p>
+              Sistemas visuales completos, manuales de marca y narrativas que
+              conectan con tu comunidad.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Productos digitales</h3>
+            <p>
+              Diseño de apps y sitios web responsivos con foco en accesibilidad y
+              rendimiento.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Contenido interactivo</h3>
+            <p>
+              Experiencias inmersivas, micrositios y piezas experimentales para
+              campañas memorables.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="proyectos" class="section gradient">
+        <div class="section-heading">
+          <p class="pill">Selección 2024</p>
+          <h2>Proyectos recientes</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project">
+            <div class="project-meta">
+              <p class="pill small">Ecommerce</p>
+              <span>Casa Lumbre</span>
+            </div>
+            <p>
+              Re-diseño completo del catálogo y checkout con un incremento del 42%
+              en conversión.
+            </p>
+          </article>
+          <article class="project">
+            <div class="project-meta">
+              <p class="pill small">Web 3</p>
+              <span>Nébula DAO</span>
+            </div>
+            <p>
+              Panel interactivo para visualizar gobernanza y participación en
+              tiempo real.
+            </p>
+          </article>
+          <article class="project">
+            <div class="project-meta">
+              <p class="pill small">Educación</p>
+              <span>Escuela Runa</span>
+            </div>
+            <p>
+              Plataforma de cursos con herramientas de seguimiento y mentoring
+              personalizado.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="equipo" class="section">
+        <div class="section-heading">
+          <p class="pill">Personas</p>
+          <h2>Un equipo híbrido y remoto</h2>
+        </div>
+        <div class="team">
+          <article>
+            <h3>Lola Fernández</h3>
+            <p>Dirección creativa · Buenos Aires</p>
+          </article>
+          <article>
+            <h3>Mateo Vargas</h3>
+            <p>Estrategia digital · Ciudad de México</p>
+          </article>
+          <article>
+            <h3>Catalina Ríos</h3>
+            <p>Desarrollo front-end · Medellín</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contacto" class="section contact">
+        <div>
+          <p class="pill">Contacto</p>
+          <h2>¿Listo para comenzar?</h2>
+          <p>
+            Escríbenos y agendamos una llamada exploratoria para entender tus
+            necesidades y proponer una ruta clara.
+          </p>
+        </div>
+        <form class="contact-form">
+          <label>
+            Nombre
+            <input
+              name="nombre"
+              type="text"
+              placeholder="Tu nombre"
+              required
+            />
+          </label>
+          <label>
+            Email
+            <input
+              name="email"
+              type="email"
+              placeholder="correo@ejemplo.com"
+              required
+            />
+          </label>
+          <label>
+            Mensaje
+            <textarea
+              name="mensaje"
+              rows="4"
+              placeholder="Cuéntanos sobre tu proyecto"
+            ></textarea>
+          </label>
+          <button type="submit" class="btn primary full">Enviar mensaje</button>
+          <p class="small">Respondemos en menos de 24 horas.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2024 Aurora Estudio. Diseñado con amor remoto.</p>
+      <div class="socials">
+        <a href="https://www.instagram.com" target="_blank" rel="noreferrer"
+          >Instagram</a
+        >
+        <a href="https://dribbble.com" target="_blank" rel="noreferrer"
+          >Dribbble</a
+        >
+        <a href="https://www.behance.net" target="_blank" rel="noreferrer"
+          >Behance</a
+        >
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
