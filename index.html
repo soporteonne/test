@@ -1,192 +1,161 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Estudio Creativo Aurora</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="hero">
-      <nav class="nav">
-        <div class="logo">Aurora</div>
-        <button class="menu-toggle" aria-label="Abrir menú">
-          <span></span><span></span><span></span>
-        </button>
-        <ul class="nav-links">
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#equipo">Equipo</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Altum Partners | Consultoría Global</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <div class="logo">Altum Partners</div>
+      <div class="menu-toggle" aria-label="Abrir menú" role="button" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="sectores.html">Sectores</a></li>
+          <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+          <li><a href="insights.html">Insights</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
         </ul>
       </nav>
-      <div class="hero-content">
-        <p class="pill">Estudio creativo independiente</p>
-        <h1>Diseño digital con alma latina</h1>
-        <p>
-          Creamos experiencias web y productos digitales con estética cuidada,
-          tecnología moderna y una pizca de rebeldía.
-        </p>
-        <div class="hero-cta">
-          <a class="btn primary" href="#contacto">Hablemos</a>
-          <a class="btn ghost" href="#proyectos">Ver proyectos</a>
-        </div>
-      </div>
-    </header>
+    </div>
+  </header>
 
-    <main>
-      <section id="servicios" class="section">
-        <div class="section-heading">
-          <p class="pill">Servicios</p>
-          <h2>Lo que podemos construir juntos</h2>
-        </div>
-        <div class="grid">
-          <article class="card">
-            <h3>Identidad visual</h3>
-            <p>
-              Sistemas visuales completos, manuales de marca y narrativas que
-              conectan con tu comunidad.
-            </p>
-          </article>
-          <article class="card">
-            <h3>Productos digitales</h3>
-            <p>
-              Diseño de apps y sitios web responsivos con foco en accesibilidad y
-              rendimiento.
-            </p>
-          </article>
-          <article class="card">
-            <h3>Contenido interactivo</h3>
-            <p>
-              Experiencias inmersivas, micrositios y piezas experimentales para
-              campañas memorables.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section id="proyectos" class="section gradient">
-        <div class="section-heading">
-          <p class="pill">Selección 2024</p>
-          <h2>Proyectos recientes</h2>
-        </div>
-        <div class="project-grid">
-          <article class="project">
-            <div class="project-meta">
-              <p class="pill small">Ecommerce</p>
-              <span>Casa Lumbre</span>
-            </div>
-            <p>
-              Re-diseño completo del catálogo y checkout con un incremento del 42%
-              en conversión.
-            </p>
-          </article>
-          <article class="project">
-            <div class="project-meta">
-              <p class="pill small">Web 3</p>
-              <span>Nébula DAO</span>
-            </div>
-            <p>
-              Panel interactivo para visualizar gobernanza y participación en
-              tiempo real.
-            </p>
-          </article>
-          <article class="project">
-            <div class="project-meta">
-              <p class="pill small">Educación</p>
-              <span>Escuela Runa</span>
-            </div>
-            <p>
-              Plataforma de cursos con herramientas de seguimiento y mentoring
-              personalizado.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section id="equipo" class="section">
-        <div class="section-heading">
-          <p class="pill">Personas</p>
-          <h2>Un equipo híbrido y remoto</h2>
-        </div>
-        <div class="team">
-          <article>
-            <h3>Lola Fernández</h3>
-            <p>Dirección creativa · Buenos Aires</p>
-          </article>
-          <article>
-            <h3>Mateo Vargas</h3>
-            <p>Estrategia digital · Ciudad de México</p>
-          </article>
-          <article>
-            <h3>Catalina Ríos</h3>
-            <p>Desarrollo front-end · Medellín</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="contacto" class="section contact">
+  <main>
+    <section class="hero">
+      <div class="container grid">
         <div>
-          <p class="pill">Contacto</p>
-          <h2>¿Listo para comenzar?</h2>
-          <p>
-            Escríbenos y agendamos una llamada exploratoria para entender tus
-            necesidades y proponer una ruta clara.
-          </p>
+          <p class="badge">Consultoría de élite</p>
+          <h1>Soluciones que impulsan a las organizaciones líderes del mundo</h1>
+          <p class="tagline">Somos una firma global que combina visión estratégica, rigor financiero y tecnología avanzada para transformar negocios en resultados sostenibles.</p>
+          <a class="button" href="contacto.html">Agendar una reunión</a>
         </div>
-        <form class="contact-form">
-          <label>
-            Nombre
-            <input
-              name="nombre"
-              type="text"
-              placeholder="Tu nombre"
-              required
-            />
-          </label>
-          <label>
-            Email
-            <input
-              name="email"
-              type="email"
-              placeholder="correo@ejemplo.com"
-              required
-            />
-          </label>
-          <label>
-            Mensaje
-            <textarea
-              name="mensaje"
-              rows="4"
-              placeholder="Cuéntanos sobre tu proyecto"
-            ></textarea>
-          </label>
-          <button type="submit" class="btn primary full">Enviar mensaje</button>
-          <p class="small">Respondemos en menos de 24 horas.</p>
-        </form>
-      </section>
-    </main>
-
-    <footer>
-      <p>© 2024 Aurora Estudio. Diseñado con amor remoto.</p>
-      <div class="socials">
-        <a href="https://www.instagram.com" target="_blank" rel="noreferrer"
-          >Instagram</a
-        >
-        <a href="https://dribbble.com" target="_blank" rel="noreferrer"
-          >Dribbble</a
-        >
-        <a href="https://www.behance.net" target="_blank" rel="noreferrer"
-          >Behance</a
-        >
+        <div class="card">
+          <h3>Capacidades integrales</h3>
+          <p>Integramos estrategia, finanzas, tecnología y talento para orquestar transformaciones completas con la disciplina de los proyectos más exigentes.</p>
+          <div class="benefits">
+            <div class="benefit">
+              <div class="badge">+1200</div>
+              <div>
+                <strong>Profesionales especializados</strong>
+                <p>Nuestro equipo está presente en centros financieros y de innovación clave.</p>
+              </div>
+            </div>
+            <div class="benefit">
+              <div class="badge">48</div>
+              <div>
+                <strong>Países</strong>
+                <p>Expertise local con estándares globales para acompañar cada mercado.</p>
+              </div>
+            </div>
+            <div class="benefit">
+              <div class="badge">+2.5x</div>
+              <div>
+                <strong>Retorno promedio</strong>
+                <p>Programas de transformación diseñados para maximizar valor y control.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+    </section>
+
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section-header">
+          <h2>Servicios principales</h2>
+          <p>Equipos multidisciplinarios que entregan resultados medibles con la solidez de los estándares internacionales.</p>
+        </div>
+        <div class="cards-grid three">
+          <div class="card">
+            <img class="icon" src="https://picsum.photos/200/200?strategy" alt="Consultoría">
+            <h3>Consultoría Estratégica</h3>
+            <p>Definimos hojas de ruta basadas en datos para reposicionar negocios, priorizar inversiones y capturar crecimiento sostenido.</p>
+          </div>
+          <div class="card">
+            <img class="icon" src="https://picsum.photos/200/200?audit" alt="Auditoría">
+            <h3>Auditoría y Finanzas</h3>
+            <p>Control de riesgos, reportes confiables y gobierno corporativo robusto para inspirar confianza en los mercados.</p>
+          </div>
+          <div class="card">
+            <img class="icon" src="https://picsum.photos/200/200?digital" alt="Transformación">
+            <h3>Transformación Digital</h3>
+            <p>Implementamos plataformas, automatización e inteligencia de datos para acelerar la eficiencia y la experiencia del cliente.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="por-que">
+      <div class="container">
+        <div class="section-header">
+          <h2>Por qué elegirnos</h2>
+          <p>Un socio estratégico que combina profundidad técnica con ejecución impecable.</p>
+        </div>
+        <div class="cards-grid four benefits">
+          <div class="card">
+            <h4>Enfoque de valor</h4>
+            <p>Metodologías orientadas a métricas financieras claras y aceleradores de captura de valor.</p>
+          </div>
+          <div class="card">
+            <h4>Gobernanza rigurosa</h4>
+            <p>Modelos de control y gestión del cambio que reducen riesgos y elevan la transparencia.</p>
+          </div>
+          <div class="card">
+            <h4>Innovación aplicada</h4>
+            <p>Alianzas con líderes tecnológicos y laboratorios de datos para experimentar y escalar rápido.</p>
+          </div>
+          <div class="card">
+            <h4>Talento senior</h4>
+            <p>Socios y directores involucrados en cada entrega para garantizar consistencia y excelencia.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Altum Partners</h4>
+          <p>Firma global de consultoría que une estrategia, finanzas, tecnología y talento para construir organizaciones resilientes.</p>
+          <div class="socials">
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+            <a href="#">YouTube</a>
+          </div>
+        </div>
+        <div>
+          <h4>Firm</h4>
+          <a href="sobre-nosotros.html">Sobre Nosotros</a>
+          <a href="sectores.html">Sectores</a>
+          <a href="insights.html">Insights</a>
+        </div>
+        <div>
+          <h4>Servicios</h4>
+          <a href="servicios.html">Consultoría Estratégica</a>
+          <a href="servicios.html">Transformación Digital</a>
+          <a href="servicios.html">Gestión de Riesgos</a>
+        </div>
+        <div>
+          <h4>Contacto</h4>
+          <a href="contacto.html">Agenda</a>
+          <a href="#">Política de Privacidad</a>
+          <a href="#">Términos y Condiciones</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2024 Altum Partners. Todos los derechos reservados.</span>
+        <span>Excelencia basada en datos y experiencia global.</span>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
 </html>
